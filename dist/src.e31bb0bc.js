@@ -29062,7 +29062,7 @@ function Input() {
   var stil = {
     fontSize: "1.5em",
     marginBottom: "0.3em",
-    color: "crimson" /* ADIM 2 */
+    color: inputDeğeri.length <= 10 ? "royalblue" : "crimson" /* ADIM 2 */
   };
 
   return /*#__PURE__*/_react.default.createElement("div", {
